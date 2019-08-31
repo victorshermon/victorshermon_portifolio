@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+@font-face {
+  font-family:rubik;
+  src:url('fonts/rubik-regular.woff2');
+}
+
+@font-face {
+  font-family:Ibm Plex Mono;
+  src:url('fonts/IBMPlexMono-Italic-Latin.woff2');
+}
+
+body
+{
+  font-family:rubik;
+}
