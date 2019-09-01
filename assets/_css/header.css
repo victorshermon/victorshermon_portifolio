@@ -1,12 +1,7 @@
 @charset "UTF-8";
 
-.grid-constructor
-{
- display:grid; grid-template-columns: "header header header";
-}
 .header
 {
-  grid-area:header; display:grid; grid-template-columns:repeat(12, 100px);
-  justify-content: center; background-color:#B4C7FA; padding:30px;
-  background:linear-gradient(to right, #B4C7FA, #839CF8); background:-moz-linear-gradient(); background:-webkit-linear-gradient()
+  display:grid; grid-template-columns:repeat(12, 100px);
+  justify-content: center; width:100%; position:absolute;
 }
